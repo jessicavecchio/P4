@@ -1,0 +1,416 @@
+/* Jessica Vecchio | IS 117-006 | Spring 2022 */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Codystar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: white;
+}
+
+body {
+  font-family: "Monaco", "Lucida Console", monospace; 
+}
+
+main{
+	background-color: white;
+}
+
+
+.logo img{
+
+	height: 5em;
+	width: 5em;
+	float: left;
+}
+
+
+.title{
+	color: #13b076;
+	padding: 1em;
+}
+
+#title1{
+
+	font-family: 'Monoton', "Monaco", "Lucida Console", monospace; 
+	font-size: 3em; 
+
+}
+
+.HomeButton{
+ 
+ 	font-family: 'Monoton', "Monaco", "Lucida Console", monospace; 
+ 	color: white;
+ 	padding-left: 1em;
+ 	font-size: 2em;
+ 	
+ 
+}
+ 
+.HomeButton:hover{
+ 
+ 	color: coral;
+}
+ 
+#carrot{
+
+	float: right; 
+	font-size: .5em;
+	padding-right: 1em;
+	padding-left: .5em;
+	
+
+}
+
+#title2{
+
+	font-family: 'Megrim', "Monaco", "Lucida Console", monospace;
+	font-size: 3em; 
+
+}
+
+.ArtButton{
+ 
+ 	font-family: 'Megrim', "Monaco", "Lucida Console", monospace;
+ 	color: white; 
+ 	padding: 1em;
+ 	font-size: 2em;
+ 
+}
+ 
+.ArtButton:hover{
+ 
+ 	color: coral;
+ 	
+}
+
+#title3{
+
+	font-family:'Codystar', "Monaco", "Lucida Console", monospace;
+	font-style: bold;
+	font-size: 3em; 
+
+}
+
+.PastButton{
+
+	font-family:'Codystar', "Monaco", "Lucida Console", monospace;
+	color: white;
+	padding: 1em;
+	font-size: 2em;
+
+}
+
+.PastButton:hover{
+
+	color: coral;
+	
+}
+
+#title4{
+
+	font-family: 'Monofett', "Monaco", "Lucida Console", monospace;
+	font-size: 3em;
+
+}
+
+.WebDButton{
+
+	font-family: 'Monofett', "Monaco", "Lucida Console", monospace;
+	color: white;
+	padding: 1em;
+	font-size: 2em;
+}
+
+.WebDButton:hover{
+
+	color: coral;
+	
+}
+
+#title5{
+
+	font-family: 'Barrio', "Monaco", "Lucida Console", monospace;
+	font-size: 3em;
+
+}
+
+.FutureButton{
+
+	font-family: 'Barrio', "Monaco", "Lucida Console", monospace;
+	color: white;
+	padding: 1em;
+	font-size: 2em;
+
+}
+
+.FutureButton:hover{
+
+	color: coral;
+	
+}
+
+#title6{
+
+	font-family: 'Rubik Puddles', "Monaco", "Lucida Console", monospace;
+	font-size: 3em;
+
+}
+
+.ContactButton{
+
+	font-family: 'Rubik Puddles', "Monaco", "Lucida Console", monospace;
+	color: white; 
+	padding: 1em;
+	font-size: 2em;
+
+}
+
+.ContactButton:hover{
+
+	color: coral;
+	
+}
+
+.aboutMe_intro{
+	border: 1em solid #13b076; 
+ 	color: #13b076;
+	padding: 3em; 
+	background-color: white;
+}
+
+.flip-card {
+  background-color: white;
+  width: 50%;
+  height:38em;
+  border: 1px solid #f1f1f1;
+  perspective: 100em;
+  float: right;
+  padding: 5em;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 90%;
+  text-align: left;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: white;
+  color: #13b076;
+  text-align: center;
+  height: 80%;
+}
+
+.flip-card-back {
+  background-color: white;
+  color: #13b076;
+  transform: rotateY(180deg);
+  margin: 1em;
+}
+
+.art_images{
+ 
+  width: 100%;
+  height: 33%;
+  padding: 2em;
+
+}
+.art_images img{
+ 	
+ 	width: 33%;
+ 	height: 33;
+ 	float: left;
+ 	padding: 2em;
+ 	
+ }
+ 
+ #insta_link {
+ 
+ 	text-align: center;
+ 	color: #13b076;
+ 
+ }
+ 
+ #insta_link a{
+ 
+ 	color: #13b076;
+ }
+ 
+ #insta_link a:hover{
+ 
+ 	color: coral;
+ 	
+ }
+ 
+ #art_imgClick{
+ 
+ 	text-align: center;
+ 	padding: 1em;
+ 	color: #13b076;
+ }
+ 
+ #art_intro{
+
+	border: 1em solid #13b076; 
+ 	color: #13b076;
+	padding: 3em; 
+	background-color: white;
+	
+
+}
+
+#contact_me{
+	
+	text-align: center;
+	padding: 1em;
+	color: #13b076;
+}
+
+#contact_me a:hover {
+	color: coral;
+}
+
+#contact_me a{
+	
+	color: #13b076;
+
+}
+ 
+.webDesign_images div{
+	
+	
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 33%;
+	float: left;
+	
+}
+
+.webDesign_images img{
+	
+	width: 100%;
+	height: 100%;
+	background-color: grey;
+	float: left;
+
+}
+
+.caption{
+
+	display: block;
+	color: #13b076;
+	
+}
+
+.caption a{
+	
+	color: coral;
+
+}
+ 
+ 
+ #visit_git{
+ 
+ 	text-align: center; 
+ 	padding: 2em;
+ 	color: #13b076;
+ 	
+ }
+ 
+ #visit_git a {
+ 
+ 	 color: #13b076;
+ 
+ }
+ 
+ #visit_git a:hover{
+ 
+ 	color: coral;
+ 	
+ }
+ 
+ #prosp_career{
+ 	
+ 	border: 1em solid #13b076; 
+ 	color: #13b076;
+	padding: 3em; 
+	background-color: white;
+ 
+ 
+ }
+ 
+ #short_goals{
+ 
+ 	border: 1em solid #13b076; 
+ 	color: #13b076;
+	padding: 3em; 
+	background-color: white;
+ 
+ }
+ 
+ #long_goals{
+ 
+ 	border: 1em solid #13b076; 
+ 	color: #13b076;
+	padding: 3em; 
+	background-color: white;
+ 
+ }
+ 
+ #ultrasound{
+ 
+	border: 1em solid #13b076; 
+ 	color: #13b076;
+	padding: 2em; 
+	background-color: white;
+	float: right;
+	width: 48%;
+	
+ 
+ 
+ }
+ 
+ #college{
+ 
+ 	border: 1em solid #13b076; 
+ 	color: #13b076;
+	padding: 2em; 
+	background-color: white;
+	float: left;
+	width:48%;
+ 
+ }
+ 
+ 
+ footer{
+	text-align: center;
+	padding: 2em;
+	clear: both;
+}
+
